@@ -3,14 +3,21 @@ Python API for Omegle webchat. Compatible with Python3.
 # Installation 
 $ pip install pyomegle2021
 # Usage
-Go to pyomegle2021/pyomegle2021/user.py 
+Go to pyomegle2021/pyomegle2021/user.py
+
 Then execute user.py
+
 $ python3 pyomegle2021/pyomegle2021/user.py
+
 # Greeting
 The script will send a fisrt message with 'Hola', to greeting, you can modife this greeting
+
 To modify greeting go to 
+
 $ cd pyomegle2021/pyomegle2021/pyomegle.py
+
 Then go to line 138 and modify fist message o delete it
+
 # Events
 List of events accessible by OmegleHandler. Note that OmegleHandler uses a loop optional parameter, valid for start a new chat when a stranger disconnects.
 
