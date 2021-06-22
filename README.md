@@ -25,7 +25,7 @@ Captcha will be fixed
 # Events
 List of events accessible by OmegleHandler. Note that OmegleHandler uses a loop optional parameter, valid for start a new chat when a stranger disconnects.
 
-    waiting() Called when we are waiting for a stranger to connect
+    # waiting() Called when we are waiting for a stranger to connect
     connected() Called when we are connected with a stranger
     typing() Called when the user is typing a message
     stopped_typing() Called when the user stop typing a message
