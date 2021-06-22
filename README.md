@@ -18,10 +18,9 @@ To modify greeting go to
 Then go to line 138 and modify first message o delete it
 
 # Future
+This script will work more automatically in the future, in such a way that some responses expected by the user are set and the script will answer as desired by the user.
 
-    This script will work more automatically in the future, in such a way that some responses expected by the user are set and the script will answer as desired by the user.
-
-    Captcha will be fixed
+Captcha will be fixed
 
 # Events
 List of events accessible by OmegleHandler. Note that OmegleHandler uses a loop optional parameter, valid for start a new chat when a stranger disconnects.
