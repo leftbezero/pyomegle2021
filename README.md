@@ -9,7 +9,7 @@ Then execute user.py
     $ python3 pyomegle2021/pyomegle2021/user.py
 
 # Greeting
-The script will send a fisrt message with 'Hola', to greeting, you can modife or delete this greeting
+The script will send a first message with 'Hola', to greeting, you can modife or delete this greeting
 
 To modify greeting go to 
 
