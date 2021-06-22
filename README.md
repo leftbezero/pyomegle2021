@@ -11,7 +11,7 @@ The script will send a fisrt message with 'Hola', to greeting, you can modife th
 To modify greeting go to 
 $ cd pyomegle2021/pyomegle2021/pyomegle.py
 Then go to line 138 and modify fist message o delete it
-#Events
+# Events
 List of events accessible by OmegleHandler. Note that OmegleHandler uses a loop optional parameter, valid for start a new chat when a stranger disconnects.
 
     waiting() Called when we are waiting for a stranger to connect
