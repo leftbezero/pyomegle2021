@@ -1,7 +1,7 @@
 # pyomegle2021
 Python API for Omegle webchat. Compatible with Python3.
 # Installation 
-    $ pip install pyomegle2021
+    $ git clone https://github.com/leftbezero/pyomegle2021.git
 # Usage
 Go to pyomegle2021/pyomegle2021/user.py
 Then execute user.py
