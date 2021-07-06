@@ -8,35 +8,11 @@ Then execute user.py
 
     $ python3 pyomegle2021/pyomegle2021/user.py
 it will start a conversation with stranger
-from pyomegle import OmegleClient, OmegleHandler
 
-"""
-    Omegle inteface for python
+to start a new conversation just type '/next' on the terminal
 
-    /next
-        starts a new conversation
-    /exit
-        exits chat session
-"""
+to disconnect from omegle type '/exit' on the terminal
 
-h = OmegleHandler(loop=True)            # session loop
-c = OmegleClient(h, wpm=47, lang='en')  # 47 words per minute
-c.start()
-
-while 1:
-    input_str = input('')           # string input
-
-    if input_str.strip() == '/next':
-        c.next()                        # new conversation
-    elif input_str.strip() == '/exit':
-        c.disconnect()                  # disconnect chat session
-        break
-    else:
-        c.send(input_str)               # send string
-
-to start a new conversation just type 'next' on the terminal
-
-to disconnect from omegle type 'exit' on the terminal
 # Greeting
 The script will send a first message with 'Hola', to greeting, you can modife or delete this greeting
 
