@@ -13,6 +13,8 @@ to start a new conversation just type '/next' on the terminal
 
 to disconnect from omegle type '/exit' on the terminal
 
+to modify language, modify varaible 'lang', example, if you want english you put 'lang=en', if you want spanish you put 'lang=es', french 'lang=fr' or the language you want to
+
 # Greeting
 The script will send a first message with 'Hola', to greeting, you can modife or delete this greeting
 
