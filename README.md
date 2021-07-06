@@ -7,7 +7,9 @@ Go to pyomegle2021/pyomegle2021/user.py
 Then execute user.py
 
     $ python3 pyomegle2021/pyomegle2021/user.py
-
+it will start a conversation with stranger
+to start a new conversation just type 'next' on the terminal
+to disconnect from omegle type 'exit' on the terminal
 # Greeting
 The script will send a first message with 'Hola', to greeting, you can modife or delete this greeting
 
